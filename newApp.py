@@ -54,7 +54,7 @@ def cifar10_classification():
         st.write("Classifying...")
         
         # Load CIFAR-10 model
-        model = tf.keras.models.load_model('model111.h5')
+        model = tf.keras.models.load_model('model111.h5') #Also use model cifar10_model.h5
         
         # CIFAR-10 class names
         class_names = ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
